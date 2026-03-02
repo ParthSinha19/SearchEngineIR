@@ -99,10 +99,12 @@ The model is trained using contrastive learning with in-batch negatives.
 Loss function:
 
 $L = -\log \frac{\exp(q \cdot d^+)}{\sum_{j=1}^{N} \exp(q \cdot d_j)}$
-	​
-Where:𝑞
+
+​
+Where:
 q = query embedding
 𝑑+ = positive passage
+
 Other passages in batch = negatives
 
 ### Evaluation Metrics
