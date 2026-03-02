@@ -54,8 +54,8 @@ Similarity(q, d) = q · d
 ## 1. Clone repository
 
 ```bash
-git clone <your-repo-link>
-cd <repo-name>
+git clone [repo-link>](https://github.com/ParthSinha19/SearchEngineIR.git)
+cd [<repo-name>](https://github.com/ParthSinha19/SearchEngineIR.git)
 ```
 ## 2. Install dependencies
 ```
