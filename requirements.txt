@@ -1,0 +1,12 @@
+
+pyserini>=0.22.0
+beir>=2.0.0
+
+
+torch>=2.0.0
+transformers>=4.30.0
+faiss-cpu
+torchvision
+
+# Utilities
+numpy>=1.22.0
