@@ -5,6 +5,10 @@ from pathlib import Path
 import torch
 from typing import Dict
 
+import os
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
+os.environ["HF_DATASETS_OFFLINE"] = "1"
+
 # ── Project modules ──────────────────────────────────────────────────────────
 from data_loader import (
     download_and_load_dataset,
